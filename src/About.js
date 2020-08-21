@@ -73,7 +73,7 @@ font-size: 25px;
 color: black;
 @media (max-width: 700px){
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
      }
 `;
 
@@ -87,7 +87,7 @@ font-size: 25px;
 color: black;
 @media (max-width: 700px){
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
      }
 `;
 export const TextStyleMiddle2 = styled(Title)`
