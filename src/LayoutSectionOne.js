@@ -26,8 +26,7 @@ export const FormStyle = styled.div`
 padding-top: 30px;
 padding-left: 185px;
 @media (max-width: 700px){ 
-  padding-left: 150px;
-  padding-right: 20px;
+  padding-left: 100px;
   width: 100%    }
 `;
 
@@ -39,8 +38,7 @@ font-size: 45px;
 color: ${seaBlue};
 text-shadow: 1px 1px 2px #380503;
 @media (max-width: 700px){
-  padding-left: 150px;
-  padding-right: 20px;
+  padding-left: 100px;
   font-size: 25px;
    }
 `;
@@ -52,8 +50,7 @@ padding-bottom: 10px;
 font-size: 30px;
 color: black;
 @media (max-width: 700px){
-  padding-left: 150px;
-  padding-right: 20px;
+  padding-left: 100px;
   font-size: 15px;
    }
 `;

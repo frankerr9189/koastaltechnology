@@ -74,7 +74,8 @@ export const ListGrid = styled.div`
     grid-template-columns: 1fr;
     gap: 30px;
     @media (max-width: 700px){
-        padding-left: 125px;
+        padding-left: 100px;
+        width: 80%;
     }
 `
 
