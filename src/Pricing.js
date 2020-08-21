@@ -90,6 +90,9 @@ box-shadow: 0px 0px 4px 0px grey;
  const DialogBannerName = styled(TextLabel)`
     font-size: 30px;
     padding: 5px 40px;
+    @media (max-width: 700px){
+        font-size: 20px;
+        padding: 5px;
     `;
 
 const Pricing= ()=> {

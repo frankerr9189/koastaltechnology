@@ -25,6 +25,10 @@ filter: contrast(90%);
 export const FormStyle = styled.div`
 padding-top: 30px;
 padding-left: 185px;
+@media (max-width: 700px){ 
+  padding-left: 150px;
+  padding-right: 20px;
+  width: 100%    }
 `;
 
 export const TextStyle = styled(Title)`
@@ -35,7 +39,8 @@ font-size: 45px;
 color: ${seaBlue};
 text-shadow: 1px 1px 2px #380503;
 @media (max-width: 700px){
-  padding-left: 200px;
+  padding-left: 150px;
+  padding-right: 20px;
   font-size: 25px;
    }
 `;
@@ -47,7 +52,8 @@ padding-bottom: 10px;
 font-size: 30px;
 color: black;
 @media (max-width: 700px){
-  padding-left: 200px;
+  padding-left: 150px;
+  padding-right: 20px;
   font-size: 15px;
    }
 `;
@@ -68,7 +74,7 @@ background-color: grey;
 pointer-events: none;
 `}
 @media (max-width: 700px){
-width: 50%
+width: 70%
 }
 `;
 
@@ -161,7 +167,6 @@ function newBusinessFrom(){
           type="text"
           label="First and Last Name"
           value={name}
-          background="white"
           onChange={handleChange('name')}
           variant="outlined"
         />
