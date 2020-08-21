@@ -74,7 +74,7 @@ export const ListGrid = styled.div`
     grid-template-columns: 1fr;
     gap: 30px;
     @media (max-width: 700px){
-        padding-left: 100px;
+        padding-left: 50px;
         width: 80%;
     }
 `
@@ -103,6 +103,8 @@ box-shadow: 0px 0px 4px 0px grey;
 }
 @media (max-width: 700px){
     font-size: 15px;
+    padding: 10px;
+    width: 80%;
 }
  `
  const DialogBannerName = styled(TextLabel)`
