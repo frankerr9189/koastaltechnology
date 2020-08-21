@@ -40,7 +40,7 @@ padding-bottom: 10px;
 font-size: 25px;
 color: black;
 @media (max-width: 700px){
-    font-size: 15px;
+    font-size: 14px;
      }
 `;
 
@@ -85,6 +85,7 @@ box-shadow: 0px 0px 4px 0px grey;
 @media (max-width: 700px){
     font-size: 25px;
     padding: 20px;
+    height: 80%;
      }
  `
  const DialogBannerName = styled(TextLabel)`
@@ -130,7 +131,7 @@ You read that correct! We are here to make your job easier. There is no start up
                     Custom
                     </DialogBannerName>
                     <TextStyle3>
-                    We offer customized modules if you need something that we don't have. Please contact us at sales@Koastal-Technology.com. We are here for you.
+                    We offer customized modules if you need something that we don't have. Please contact us at sales@Koastal-Technology.com.
                     </TextStyle3>
                 </FeatureItem>
             </ListGrid>
